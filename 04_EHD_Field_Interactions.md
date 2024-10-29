@@ -95,6 +95,7 @@ $$
     
   - **Exhaust Velocity ($v_e$)**: The exhaust velocity can be calculated as:
       where $q$ is the charge of an ion, $V$ is the applied voltage, and $m$ is the ion mass.
+
 $$
 v_e = \sqrt{\frac{2qV}{m}}
 $$
