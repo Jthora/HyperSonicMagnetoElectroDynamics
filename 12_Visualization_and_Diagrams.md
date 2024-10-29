@@ -86,7 +86,7 @@ This document provides a collection of diagrams and flowcharts to help visualize
 
 ### Example 1: Lorentz Force in MHD Flow
 
-\[
+$$
 \begin{array}{|c|c|c|}
 \hline
 \text{Current (I)} & \rightarrow & \text{Electrode 1} \\
@@ -96,7 +96,7 @@ This document provides a collection of diagrams and flowcharts to help visualize
 \text{Lorentz Force (F)} & \circlearrowleft & \text{Fluid Flow Direction} \\
 \hline
 \end{array}
-\]
+$$
 
 This diagram captures how electric current and magnetic field generate Lorentz force, resulting in fluid movement.
 
