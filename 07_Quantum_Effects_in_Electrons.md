@@ -10,20 +10,20 @@ This document introduces the key quantum mechanical concepts and equations gover
 
 **Wave-particle duality** refers to the fact that electrons exhibit both particle-like and wave-like properties. This duality is described by the **de Broglie wavelength**:
 
-\[
+$$
 \lambda = \frac{h}{p}
-\]
+$$
 
 where:
-- \( \lambda \): Wavelength of the electron
-- \( h \): Planck’s constant
-- \( p \): Momentum of the electron
+- $ \lambda $: Wavelength of the electron
+- $ h $: Planck’s constant
+- $ p $: Momentum of the electron
 
 This concept underlies much of quantum mechanics and is essential for understanding electron behavior in confined spaces, such as quantum wells in semiconductors.
 
 ### 2. Electron Spin
 
-**Spin** is an intrinsic property of electrons, representing a form of angular momentum. Spin is quantized, meaning electrons can only have specific spin states, typically referred to as "spin up" (\( +\frac{1}{2} \)) and "spin down" (\( -\frac{1}{2} \)).
+**Spin** is an intrinsic property of electrons, representing a form of angular momentum. Spin is quantized, meaning electrons can only have specific spin states, typically referred to as "spin up" ($ +\frac{1}{2} $) and "spin down" ($ -\frac{1}{2} $).
 
 - Spin affects the **magnetic moment** of an electron and influences its interactions with magnetic fields, which is fundamental in fields like **spintronics** and **magnetic storage**.
 - In quantum computing, spin is also used as a **qubit** for information storage and processing.
@@ -32,14 +32,14 @@ This concept underlies much of quantum mechanics and is essential for understand
 
 In quantum mechanics, the position and momentum of an electron cannot both be known precisely due to the **Heisenberg Uncertainty Principle**:
 
-\[
+$$
 \Delta x \, \Delta p \geq \frac{\hbar}{2}
-\]
+$$
 
 where:
-- \( \Delta x \): Uncertainty in position
-- \( \Delta p \): Uncertainty in momentum
-- \( \hbar \): Reduced Planck's constant
+- $ \Delta x $: Uncertainty in position
+- $ \Delta p $: Uncertainty in momentum
+- $ \hbar $: Reduced Planck's constant
 
 The uncertainty principle limits the precision of simultaneous measurements of position and momentum, which leads to probabilistic descriptions of electron locations and behaviors.
 
@@ -49,26 +49,26 @@ The uncertainty principle limits the precision of simultaneous measurements of p
 
 ### 1. Schrödinger Equation
 
-The **Schrödinger equation** is the fundamental equation governing quantum systems. For a single electron in a potential \( V(x) \), it is expressed as:
+The **Schrödinger equation** is the fundamental equation governing quantum systems. For a single electron in a potential $ V(x) $, it is expressed as:
 
-\[
+$$
 i \hbar \frac{\partial \psi}{\partial t} = -\frac{\hbar^2}{2m} \nabla^2 \psi + V \psi
-\]
+$$
 
 In a time-independent form, it becomes:
 
-\[
+$$
 -\frac{\hbar^2}{2m} \nabla^2 \psi + V \psi = E \psi
-\]
+$$
 
 where:
-- \( \psi \): Wave function of the electron
-- \( \hbar \): Reduced Planck’s constant
-- \( m \): Electron mass
-- \( V \): Potential energy
-- \( E \): Energy of the electron
+- $ \psi $: Wave function of the electron
+- $ \hbar $: Reduced Planck’s constant
+- $ m $: Electron mass
+- $ V $: Potential energy
+- $ E $: Energy of the electron
 
-The wave function \( \psi \) describes the probability density of finding an electron at a given position and time. The **probability density** is given by \( |\psi|^2 \), which is crucial for predicting electron behavior in materials.
+The wave function $ \psi $ describes the probability density of finding an electron at a given position and time. The **probability density** is given by $ |\psi|^2 $, which is crucial for predicting electron behavior in materials.
 
 ### 2. Pauli Exclusion Principle
 
@@ -76,18 +76,18 @@ The **Pauli Exclusion Principle** states that no two electrons can occupy the sa
 
 ### 3. Tunneling Probability (Quantum Tunneling)
 
-In quantum mechanics, electrons can "tunnel" through a potential barrier even if they lack the energy to overcome it classically. The probability of tunneling through a barrier of width \( d \) and height \( U_0 \) is given approximately by:
+In quantum mechanics, electrons can "tunnel" through a potential barrier even if they lack the energy to overcome it classically. The probability of tunneling through a barrier of width $ d $ and height $ U_0 $ is given approximately by:
 
-\[
+$$
 T \approx e^{-2 \kappa d}
-\]
+$$
 
 where:
-- \( T \): Tunneling probability
-- \( \kappa = \frac{\sqrt{2m(U_0 - E)}}{\hbar} \): Decay constant
-- \( m \): Electron mass
-- \( U_0 \): Height of the potential barrier
-- \( E \): Energy of the electron
+- $ T $: Tunneling probability
+- $ \kappa = \frac{\sqrt{2m(U_0 - E)}}{\hbar} $: Decay constant
+- $ m $: Electron mass
+- $ U_0 $: Height of the potential barrier
+- $ E $: Energy of the electron
 
 Quantum tunneling is significant in semiconductor devices like tunnel diodes and is foundational to quantum computing and nanoelectronics.
 
