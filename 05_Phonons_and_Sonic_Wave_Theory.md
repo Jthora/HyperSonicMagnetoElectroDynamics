@@ -35,14 +35,14 @@ Phonons exhibit **wave-particle duality**, behaving both as waves that propagate
 
 The energy of a phonon is quantized, meaning it can only exist in specific, discrete amounts. This quantization is given by:
 
-\[
+$$
 E = \hbar \omega
-\]
+$$
 
 where:
-- \( E \): Energy of the phonon
-- \( \hbar \): Reduced Planck’s constant (\( \hbar = \frac{h}{2\pi} \))
-- \( \omega \): Angular frequency of the vibrational mode
+- $E$: Energy of the phonon
+- $\hbar$: Reduced Planck’s constant ($\hbar = \frac{h}{2\pi}$)
+- $\omega$: Angular frequency of the vibrational mode
 
 ### Types of Phonons
 
@@ -71,14 +71,16 @@ In non-metallic solids, heat is mainly transferred by phonons rather than electr
    - This scattering limits thermal conductivity; materials with low phonon scattering (e.g., diamond) exhibit high thermal conductivity.
 
 2. **Thermal Conductivity Equation**:
-   Thermal conductivity \( k \) due to phonons is given by:
-   \[
-   k = \frac{1}{3} C v \ell
-   \]
+   Thermal conductivity $k$ due to phonons is given by:
+
+$$
+k = \frac{1}{3} C v \ell
+$$
+
    where:
-   - \( C \): Heat capacity per unit volume
-   - \( v \): Average speed of sound in the material (phonon velocity)
-   - \( \ell \): Mean free path of phonons
+   - $C$: Heat capacity per unit volume
+   - $v$: Average speed of sound in the material (phonon velocity)
+   - $\ell$: Mean free path of phonons
 
 3. **Applications**:
    - Understanding phonon-driven heat conduction is crucial in designing heat-resistant materials, thermoelectric devices, and semiconductors.
@@ -92,14 +94,16 @@ Phonons are also responsible for sound transmission in crystalline solids. The i
    - Acoustic phonons at low frequencies propagate sound waves through the material.
 
 2. **Phonon Dispersion Relation**:
-   The relationship between phonon frequency \( \omega \) and wave vector \( k \) is described by the **dispersion relation**:
-   \[
-   \omega = v k
-   \]
+   The relationship between phonon frequency $\omega$ and wave vector $k$ is described by the **dispersion relation**:
+
+$$
+\omega = v k
+$$
+
    where:
-   - \( \omega \): Angular frequency
-   - \( v \): Phonon velocity (depends on the material)
-   - \( k \): Wave vector (spatial frequency)
+   - $\omega$: Angular frequency
+   - $v$: Phonon velocity (depends on the material)
+   - $k$: Wave vector (spatial frequency)
 
 3. **Applications**:
    - Phonon manipulation in sound propagation is used in designing acoustic filters, soundproof materials, and phononic crystals (materials engineered to control phonon propagation).
