@@ -207,9 +207,9 @@ $$
 
 where:
 
-	•	$v_{\text{psionic}}$: Wave speed in the psionic medium
-	•	$\alpha$: Cross-field interaction constant
-	•	$\beta$: Psionic polarization term
+• $v_{\text{psionic}}$: Wave speed in the psionic medium
+• $\alpha$: Cross-field interaction constant
+• $\beta$: Psionic polarization term
 
 ## D. Psionic Energy Transfer and Coupling Constants
 
