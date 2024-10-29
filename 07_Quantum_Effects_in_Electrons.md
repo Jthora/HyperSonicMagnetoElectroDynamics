@@ -15,9 +15,9 @@ $$
 $$
 
 where:
-- $ \lambda $: Wavelength of the electron
-- $ h $: Planck’s constant
-- $ p $: Momentum of the electron
+- $\lambda$: Wavelength of the electron
+- $h$: Planck’s constant
+- $p$: Momentum of the electron
 
 This concept underlies much of quantum mechanics and is essential for understanding electron behavior in confined spaces, such as quantum wells in semiconductors.
 
@@ -37,9 +37,9 @@ $$
 $$
 
 where:
-- $ \Delta x $: Uncertainty in position
-- $ \Delta p $: Uncertainty in momentum
-- $ \hbar $: Reduced Planck's constant
+- $\Delta x$: Uncertainty in position
+- $\Delta p$: Uncertainty in momentum
+- $\hbar$: Reduced Planck's constant
 
 The uncertainty principle limits the precision of simultaneous measurements of position and momentum, which leads to probabilistic descriptions of electron locations and behaviors.
 
@@ -62,11 +62,11 @@ $$
 $$
 
 where:
-- $ \psi $: Wave function of the electron
-- $ \hbar $: Reduced Planck’s constant
-- $ m $: Electron mass
-- $ V $: Potential energy
-- $ E $: Energy of the electron
+- $\psi$: Wave function of the electron
+- $\hbar$: Reduced Planck’s constant
+- $m$: Electron mass
+- $V$: Potential energy
+- $E$: Energy of the electron
 
 The wave function $ \psi $ describes the probability density of finding an electron at a given position and time. The **probability density** is given by $ |\psi|^2 $, which is crucial for predicting electron behavior in materials.
 
@@ -83,11 +83,11 @@ T \approx e^{-2 \kappa d}
 $$
 
 where:
-- $ T $: Tunneling probability
-- $ \kappa = \frac{\sqrt{2m(U_0 - E)}}{\hbar} $: Decay constant
-- $ m $: Electron mass
-- $ U_0 $: Height of the potential barrier
-- $ E $: Energy of the electron
+- $T$: Tunneling probability
+- $\kappa = \frac{\sqrt{2m(U_0 - E)}}{\hbar}$: Decay constant
+- $m$: Electron mass
+- $U_0$: Height of the potential barrier
+- $E$: Energy of the electron
 
 Quantum tunneling is significant in semiconductor devices like tunnel diodes and is foundational to quantum computing and nanoelectronics.
 
