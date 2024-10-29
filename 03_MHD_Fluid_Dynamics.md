@@ -84,15 +84,27 @@ An MHD pump generates fluid motion by applying an external magnetic field and el
    - Electric field, $\mathbf{E} = E_0 \hat{z}$ (constant in the $z$-direction)
    - Conductivity, $\sigma$
 
-2. **Current Density**:
-   Using Ohm’s Law:
-   $$
-   \mathbf{J} = \sigma (\mathbf{E} + \mathbf{v} \times \mathbf{B})
-   $$
-   Since $\mathbf{v}$ is in the $x$-direction and $\mathbf{B}$ is in the $y$-direction, we find:
-   $$
-   \mathbf{J} = \sigma (E_0 \hat{z} + v_x B_0 \hat{z}) = \sigma E_0 + \sigma v_x B_0
-   $$
+### 2. **Current Density**
+
+Using Ohm’s Law:
+
+$$
+\mathbf{J} = \sigma (\mathbf{E} + \mathbf{v} \times \mathbf{B})
+$$
+
+Since $\mathbf{v}$ is in the $x$-direction and $\mathbf{B}$ is in the $y$-direction, we find:
+
+$$
+\mathbf{J} = \sigma (E_0 \hat{z} + v_x B_0 \hat{z}) = \sigma E_0 + \sigma v_x B_0
+$$
+
+### 3. **Velocity Calculation**
+
+At steady state, the Lorentz force balances the viscous drag. For a flow in the $x$-direction:
+
+$$
+\mathbf{v} = \frac{\mathbf{J} \times \mathbf{B}}{\rho}
+$$
 
 3. **Velocity Calculation**:
    At steady state, the Lorentz force balances the viscous drag. For a flow in the $x$-direction:
