@@ -124,7 +124,10 @@ This document provides the core equations and calculations in MHD and EHD. Using
 
 Here’s an appendix of advanced equations for Psionic Engineering applications, focusing on complex field interactions, quantum mechanics, and energy transfer phenomena that are relevant in psionic and energy-based technologies. This appendix assumes a foundational understanding of Magnetohydrodynamics (MHD), Electrohydrodynamics (EHD), and quantum fields.
 
-Appendix: Advanced Equations for Psionic Engineering
+---
+---
+
+# Appendix: Advanced Equations for Psionic Engineering
 
 This appendix extends foundational concepts in MHD and EHD to higher-level equations for psionic engineering applications, addressing advanced field dynamics, resonant interactions, and energy transfer mechanisms.
 
