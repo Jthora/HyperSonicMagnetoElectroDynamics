@@ -18,11 +18,11 @@ This glossary provides simplified definitions for key terms in **Magnetohydrodyn
 
 ## C
 
-- **Charge Density**: The amount of electric charge per unit volume in a material, denoted by \( \rho_e \). Charge density influences electric field strength and force in EHD systems.
+- **Charge Density**: The amount of electric charge per unit volume in a material, denoted by $\rho_e$. Charge density influences electric field strength and force in EHD systems.
 
 - **Conduction Band**: The energy band in a solid where electrons can move freely, allowing electrical conductivity.
 
-- **Current Density**: A measure of electric current per unit area in a conductor, symbolized as \( \mathbf{J} \). It is crucial in MHD as it determines the interaction with magnetic fields.
+- **Current Density**: A measure of electric current per unit area in a conductor, symbolized as $\mathbf{J}$. It is crucial in MHD as it determines the interaction with magnetic fields.
 
 ## D
 
@@ -46,7 +46,7 @@ This glossary provides simplified definitions for key terms in **Magnetohydrodyn
 
 ## G
 
-- **Gyromagnetic Ratio**: A constant that relates the magnetic moment and angular momentum of a particle, often represented as \( \gamma \). It is fundamental in calculating precession in magnetic fields.
+- **Gyromagnetic Ratio**: A constant that relates the magnetic moment and angular momentum of a particle, often represented as $\gamma$. It is fundamental in calculating precession in magnetic fields.
 
 ## H
 
@@ -58,7 +58,11 @@ This glossary provides simplified definitions for key terms in **Magnetohydrodyn
 
 - **Landau-Lifshitz-Gilbert (LLG) Equation**: An equation describing the motion of magnetization in a material under an external magnetic field. It captures the effects of precession and damping in spin dynamics.
 
-- **Lorentz Force**: The force exerted on a charged particle moving through an electric and magnetic field, fundamental in both EHD and MHD. It is given by \( \mathbf{F} = q (\mathbf{E} + \mathbf{v} \times \mathbf{B}) \).
+- **Lorentz Force**: The force exerted on a charged particle moving through an electric and magnetic field, fundamental in both EHD and MHD. It is given by
+
+$$
+\mathbf{F} = q (\mathbf{E} + \mathbf{v} \times \mathbf{B})
+$$
 
 ## M
 
@@ -88,8 +92,14 @@ This glossary provides simplified definitions for key terms in **Magnetohydrodyn
 
 ## R
 
-- **Reduced Planck Constant (ℏ)**: A fundamental constant, \( \hbar = h / (2\pi) \), used in quantum mechanics to relate energy and frequency.
+- **Reduced Planck Constant ($\hbar$)**: A fundamental constant,
+
+$$
+\hbar = \frac{h}{2\pi}
+$$
+
+  used in quantum mechanics to relate energy and frequency.
 
 ## S
 
-- **Schr
+- **Schrödinger Equation**: The fundamental equation in quantum mechanics describing the behavior of particles at the quantum scale.
