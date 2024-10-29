@@ -127,9 +127,9 @@ In an MHD generator, a conductive fluid flows through a magnetic field to genera
 
 2. **Required Pressure Gradient**: Using the Navier-Stokes equation with Lorentz force:
 
-   $$
-   \frac{dp}{dx} = \rho \left( v B \right)
-   $$
+$$
+\frac{dp}{dx} = \rho \left( v B \right)
+$$
 
    where $v B$ provides the pressure drop.
 
