@@ -24,17 +24,17 @@ The **Hall effect** occurs when a magnetic field is applied perpendicular to the
 
 - **Principle**: Moving charges experience a **Lorentz force** under a perpendicular magnetic field, creating a voltage difference. This effect can be described by:
 
-  \[
-  V_H = \frac{IB}{ne \cdot d}
-  \]
+$$
+V_H = \frac{IB}{ne \cdot d}
+$$
 
-  where:
-  - \( V_H \): Hall voltage
-  - \( I \): Current
-  - \( B \): Magnetic field
-  - \( n \): Charge carrier density
-  - \( e \): Elementary charge
-  - \( d \): Thickness of the conductor
+where:
+- $V_H$: Hall voltage
+- $I$: Current
+- $B$: Magnetic field
+- $n$: Charge carrier density
+- $e$: Elementary charge
+- $d$: Thickness of the conductor
 
 - **Applications**: The Hall effect is widely used in **Hall effect sensors** to measure magnetic fields, in **current sensing**, and in characterizing semiconductor materials.
 
@@ -44,16 +44,16 @@ The **Hall effect** occurs when a magnetic field is applied perpendicular to the
 
 - **Principle**: When an acoustic wave propagates through a magnetized material, it can affect the local spin states, creating **magnetoacoustic waves**. The **magnetoelastic coupling** describes this interaction, with the wave equation modified by a magnetic field:
 
-  \[
-  \rho \frac{\partial^2 u}{\partial t^2} = C \nabla^2 u + \lambda (\mathbf{M} \cdot \nabla^2 \mathbf{M})
-  \]
+$$
+\rho \frac{\partial^2 u}{\partial t^2} = C \nabla^2 u + \lambda (\mathbf{M} \cdot \nabla^2 \mathbf{M})
+$$
 
-  where:
-  - \( \rho \): Material density
-  - \( u \): Displacement field (acoustic wave)
-  - \( C \): Elastic constant
-  - \( \lambda \): Magnetoelastic coupling constant
-  - \( \mathbf{M} \): Magnetization vector
+where:
+- $\rho$: Material density
+- $u$: Displacement field (acoustic wave)
+- $C$: Elastic constant
+- $\lambda$: Magnetoelastic coupling constant
+- $\mathbf{M}$: Magnetization vector
 
 - **Applications**: Magnetoacoustic effects are used in **acoustic wave devices**, **spintronic sensors**, and materials for **magnetic data storage** where sound waves interact with magnetic states.
 
@@ -63,14 +63,14 @@ The **Hall effect** occurs when a magnetic field is applied perpendicular to the
 
 - **Principle**: MHD waves can be **Alfvén waves** (transverse waves that travel along magnetic field lines) or **magnetosonic waves** (compressional waves modified by magnetic fields). The **dispersion relation** for Alfvén waves is given by:
 
-  \[
-  \omega = k \cdot v_A
-  \]
+$$
+\omega = k \cdot v_A
+$$
 
-  where:
-  - \( \omega \): Angular frequency
-  - \( k \): Wave vector
-  - \( v_A = \frac{B}{\sqrt{\mu \rho}} \): Alfvén velocity, with \( B \) as magnetic field strength, \( \mu \) as magnetic permeability, and \( \rho \) as fluid density
+where:
+- $\omega$: Angular frequency
+- $k$: Wave vector
+- $v_A = \frac{B}{\sqrt{\mu \rho}}$: Alfvén velocity, with $B$ as magnetic field strength, $\mu$ as magnetic permeability, and $\rho$ as fluid density
 
 - **Applications**: MHD waves are relevant in **plasma physics** (e.g., solar physics and astrophysics), **fusion research**, and **spacecraft propulsion**.
 
