@@ -106,11 +106,15 @@ $$
 \mathbf{v} = \frac{\mathbf{J} \times \mathbf{B}}{\rho}
 $$
 
-3. **Velocity Calculation**:
-   At steady state, the Lorentz force balances the viscous drag. For a flow in the $x$-direction:
-   $$
-   \mathbf{v} = \frac{\mathbf{J} \times \mathbf{B}}{\rho}
-   $$
+### Velocity Calculation
+
+At steady state, the Lorentz force balances the viscous drag. For a flow in the $x$-direction:
+
+$$
+\mathbf{v} = \frac{\mathbf{J} \times \mathbf{B}}{\rho}
+$$
+
+---
 
 ### Example 2: Pressure Gradient in an MHD Generator
 
@@ -121,11 +125,12 @@ In an MHD generator, a conductive fluid flows through a magnetic field to genera
    - Magnetic field strength, $B$
    - Desired velocity, $v$
 
-2. **Required Pressure Gradient**:
-   Using the Navier-Stokes equation with Lorentz force:
+2. **Required Pressure Gradient**: Using the Navier-Stokes equation with Lorentz force:
+
    $$
    \frac{dp}{dx} = \rho \left( v B \right)
    $$
+
    where $v B$ provides the pressure drop.
 
 ---
