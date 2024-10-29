@@ -78,7 +78,7 @@ This experiment demonstrates the effect of a magnetic field on a conductive flui
    - Record data on flow direction and velocity changes at different magnetic field strengths.
 
 4. **Analysis**:
-   - Calculate the Lorentz force \( F = J \times B \) acting on the fluid, where \( J \) is the current density and \( B \) is the magnetic field strength.
+   - Calculate the Lorentz force $F = J \times B$ acting on the fluid, where $J$ is the current density and $B$ is the magnetic field strength.
    - Analyze how the magnetic field affects the flow velocity and direction, relating results to theoretical predictions.
 
 ### Experiment 2: Basic EHD Droplet Manipulation
@@ -100,7 +100,7 @@ This experiment demonstrates how an electric field influences the motion of drop
    - Record data on the droplet's velocity, oscillation frequency, and shape changes at different voltage levels.
 
 4. **Analysis**:
-   - Calculate the electric force \( F = qE \) on the droplet, where \( q \) is the charge induced on the droplet and \( E \) is the electric field strength.
+   - Calculate the electric force $F = qE$ on the droplet, where $q$ is the charge induced on the droplet and $E$ is the electric field strength.
    - Analyze the droplet’s response to changes in electric field strength, comparing results with theoretical EHD models.
 
 ---
@@ -120,9 +120,9 @@ In MHD and EHD experiments, tracking fluid or droplet velocity is crucial for un
 
 Calculating field strength and forces acting on fluids or droplets allows for quantitative analysis.
 
-- **Electric Field Strength (EHD)**: Calculate electric field \( E = V/d \), where \( V \) is voltage and \( d \) is electrode separation.
-- **Magnetic Field Strength (MHD)**: Calculate magnetic field \( B = \mu_0 I / 2\pi r \), where \( I \) is current, \( \mu_0 \) is permeability, and \( r \) is the distance from the source.
-- **Lorentz Force (MHD)**: Use \( F = J \times B \) to quantify the force acting on the fluid in MHD setups.
+- **Electric Field Strength (EHD)**: Calculate electric field $E = V/d$, where $V$ is voltage and $d$ is electrode separation.
+- **Magnetic Field Strength (MHD)**: Calculate magnetic field $B = \mu_0 I / 2\pi r$, where $I$ is current, $\mu_0$ is permeability, and $r$ is the distance from the source.
+- **Lorentz Force (MHD)**: Use $F = J \times B$ to quantify the force acting on the fluid in MHD setups.
 
 ### 3. Data Analysis Techniques
 
