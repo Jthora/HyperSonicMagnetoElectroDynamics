@@ -87,7 +87,7 @@ In **phonon dynamics**, constants and units related to wave behavior and thermal
 - **Wave Vector ($k$)**: SI unit is 1/m (meters inverse); describes the spatial frequency of a wave.
 - **Angular Frequency ($\omega$)**: Measured in radians per second (rad/s), related to the oscillation rate of phonons.
 - **Debye Temperature ($\theta_D$)**: Unit is Kelvin (K); indicates the temperature above which phonons contribute significantly to specific heat.
-- **Planck’s Reduced Constant ($\hbar$)**: Unit is J·s; critical in quantizing phonon energy as $ E = \hbar \omega $.
+- **Planck’s Reduced Constant ($\hbar$)**: Unit is J·s; critical in quantizing phonon energy as $$ E = \hbar \omega $$.
 
 ---
 
