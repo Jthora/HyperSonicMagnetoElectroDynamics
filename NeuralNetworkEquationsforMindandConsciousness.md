@@ -5,39 +5,99 @@
 ## 1. Foundational Equations in Neural Networks
 
 ### Activation Functions
-- **Sigmoid**: `σ(x) = 1 / (1 + e^(-x))`
-- **Tanh (Hyperbolic Tangent)**: `tanh(x) = (e^x - e^(-x)) / (e^x + e^(-x))`
-- **ReLU (Rectified Linear Unit)**: `f(x) = max(0, x)`
-- **Softmax**: `softmax(x_i) = e^(x_i) / Σ e^(x_j)`
+- **Sigmoid**: $\sigma(x) = \frac{1}{1 + e^{-x}}$
+- **Tanh (Hyperbolic Tangent)**: $\text{tanh}(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$
+- **ReLU (Rectified Linear Unit)**: $f(x) = \max(0, x)$
+- **Softmax**: $\text{softmax}(x_i) = \frac{e^{x_i}}{\sum_{j} e^{x_j}}$
+
+$$
+\sigma(x) = \frac{1}{1 + e^{-x}}
+$$
+
+$$
+\text{tanh}(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}
+$$
+
+$$
+f(x) = \max(0, x)
+$$
+
+$$
+\text{softmax}(x_i) = \frac{e^{x_i}}{\sum_{j} e^{x_j}}
+$$
 
 ### Loss Functions
-- **Mean Squared Error (MSE)**: `MSE = (1/n) Σ (y_i - ŷ_i)^2`
-- **Cross-Entropy Loss**: `L = - Σ y_i * log(ŷ_i)`
-- **KL Divergence**: `D_KL(P||Q) = Σ P(i) * log(P(i) / Q(i))`
+- **Mean Squared Error (MSE)**: $\text{MSE} = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y_i})^2$
+- **Cross-Entropy Loss**: $L = -\sum_i y_i \log(\hat{y_i})$
+- **KL Divergence**: $D_{KL}(P||Q) = \sum_i P(i) \log \frac{P(i)}{Q(i)}$
+
+$$
+\text{MSE} = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y_i})^2
+$$
+
+$$
+L = -\sum_i y_i \log(\hat{y_i})
+$$
+
+$$
+D_{KL}(P||Q) = \sum_i P(i) \log \frac{P(i)}{Q(i)}
+$$
 
 ### Optimization Algorithms
-- **Gradient Descent**: `w := w - η ∇_w L(w)`
+- **Gradient Descent**: $w := w - \eta \nabla_w L(w)$
 - **Adam Optimizer**: Combination of momentum and RMSProp for adaptive learning rates.
+
+$$
+w := w - \eta \nabla_w L(w)
+$$
 
 ---
 
 ## 2. Network Architectures and Memory Equations
 
 ### Feedforward Networks
-- **Forward Propagation**: `a^(l+1) = f(W^(l) * a^(l) + b^(l))`
+- **Forward Propagation**: $a^{(l+1)} = f(W^{(l)}a^{(l)} + b^{(l)})$
+
+$$
+a^{(l+1)} = f(W^{(l)}a^{(l)} + b^{(l)})
+$$
 
 ### Recurrent Neural Networks (RNNs)
-- **Simple RNN Cell**: `h_t = f(W_x * x_t + W_h * h_(t-1) + b)`
+- **Simple RNN Cell**: $h_t = f(W_x x_t + W_h h_{t-1} + b)$
 - **LSTM Cell**
-  - **Forget Gate**: `f_t = σ(W_f * [h_(t-1), x_t] + b_f)`
-  - **Input Gate**: `i_t = σ(W_i * [h_(t-1), x_t] + b_i)`
-  - **Output Gate**: `o_t = σ(W_o * [h_(t-1), x_t] + b_o)`
+  - **Forget Gate**: $f_t = \sigma(W_f \cdot [h_{t-1}, x_t] + b_f)$
+  - **Input Gate**: $i_t = \sigma(W_i \cdot [h_{t-1}, x_t] + b_i)$
+  - **Output Gate**: $o_t = \sigma(W_o \cdot [h_{t-1}, x_t] + b_o)$
+
+$$
+h_t = f(W_x x_t + W_h h_{t-1} + b)
+$$
+
+$$
+f_t = \sigma(W_f \cdot [h_{t-1}, x_t] + b_f)
+$$
+
+$$
+i_t = \sigma(W_i \cdot [h_{t-1}, x_t] + b_i)
+$$
+
+$$
+o_t = \sigma(W_o \cdot [h_{t-1}, x_t] + b_o)
+$$
 
 ### Hopfield Networks
-- **Energy Function**: `E = - (1/2) Σ Σ w_(ij) * s_i * s_j + Σ θ_i * s_i`
+- **Energy Function**: $E = -\frac{1}{2} \sum_{i} \sum_{j} w_{ij} s_i s_j + \sum_{i} \theta_i s_i$
+
+$$
+E = -\frac{1}{2} \sum_{i} \sum_{j} w_{ij} s_i s_j + \sum_{i} \theta_i s_i
+$$
 
 ### Boltzmann Machines
-- **Energy Function**: `E = - Σ a_i * s_i - Σ Σ w_(ij) * s_i * s_j`
+- **Energy Function**: $E = - \sum_{i} a_i s_i - \sum_{i < j} w_{ij} s_i s_j$
+
+$$
+E = - \sum_{i} a_i s_i - \sum_{i < j} w_{ij} s_i s_j
+$$
 
 ---
 
@@ -45,7 +105,11 @@
 
 ### Attention Mechanisms
 - **Scaled Dot-Product Attention**:  
-  `Attention(Q, K, V) = softmax((Q * K^T) / √d_k) * V`
+  $\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$
+
+$$
+\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+$$
 
 ### Transformer Models
 - **Self-Attention**: Each token attends to every other token in the input.
@@ -58,23 +122,43 @@
 ## 4. Probabilistic and Cognitive Modeling Equations
 
 ### Markov Chains
-- **Transition Matrix**: `P(X_(t+1) = j | X_t = i) = p_(ij)`
+- **Transition Matrix**: $P(X_{t+1} = j | X_t = i) = p_{ij}$
+
+$$
+P(X_{t+1} = j | X_t = i) = p_{ij}
+$$
 
 ### Bayesian Inference Models
-- **Posterior Probability**: `P(θ | X) = (P(X | θ) * P(θ)) / P(X)`
+- **Posterior Probability**: $P(\theta | X) = \frac{P(X | \theta)P(\theta)}{P(X)}$
+
+$$
+P(\theta | X) = \frac{P(X | \theta)P(\theta)}{P(X)}
+$$
 
 ### Restricted Boltzmann Machines (RBMs)
-- **Free Energy**: `F(v) = - Σ a_i * v_i - Σ log(1 + exp(b_j + Σ v_i * w_(ij)))`
+- **Free Energy**: $F(v) = - \sum_{i} a_i v_i - \sum_j \log\left(1 + \exp(b_j + \sum_i v_i w_{ij})\right)$
+
+$$
+F(v) = - \sum_{i} a_i v_i - \sum_j \log\left(1 + \exp(b_j + \sum_i v_i w_{ij})\right)
+$$
 
 ---
 
 ## 5. Equations for Modeling Memory and Consciousness
 
 ### Hebbian Learning Rule
-- **Weight Update**: `Δw_(ij) = η * x_i * y_j`
+- **Weight Update**: $\Delta w_{ij} = \eta \, x_i \, y_j$
+
+$$
+\Delta w_{ij} = \eta \, x_i \, y_j
+$$
 
 ### Attractor Dynamics (Used in Memory and Consciousness Models)
-- **Lyapunov Stability Equations** for determining stable points or “attractors” in neural systems, where `ẋ = f(x)` shows points of stability.
+- **Lyapunov Stability Equations** for determining stable points or “attractors” in neural systems, where $\dot{x} = f(x)$ shows points of stability.
+
+$$
+\dot{x} = f(x)
+$$
 
 ### Integrated Information Theory (IIT)
 - **Φ Calculation**: Measures integration across information channels.
@@ -85,10 +169,18 @@
 
 ### Graph Theory for Network Consciousness
 - **Graph Centrality Measures**: Calculations for node importance, like Eigenvector centrality, help in defining hubs of conscious awareness.
-- **Information Flow (Entropy)**: `H(X) = -Σ p(x) * log(p(x))`
+- **Information Flow (Entropy)**: $H(X) = -\sum p(x) \log(p(x))$
+
+$$
+H(X) = -\sum p(x) \log(p(x))
+$$
 
 ### Quantum Neural Networks
-- **Superposition State Representation**: Extends neural states to qubits, where states are `|ψ⟩ = α|0⟩ + β|1⟩`
+- **Superposition State Representation**: Extends neural states to qubits, where states are $|\psi\rangle = \alpha|0\rangle + \beta|1\rangle$
+
+$$
+|\psi\rangle = \alpha|0\rangle + \beta|1\rangle
+$$
 
 ### Qualia and Information Representation
 - **Information Partitioning** in networks, measuring qualia as complex, stable patterns in high-dimensional space.
