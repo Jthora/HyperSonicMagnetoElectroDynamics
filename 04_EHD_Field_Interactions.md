@@ -12,17 +12,17 @@ In EHD, electric fields interact with conductive or dielectric (non-conductive) 
 
 - **Coulomb Force**: Charged particles in a fluid experience a force when exposed to an electric field, causing motion. The force on a particle of charge $q$ in an electric field $\mathbf{E}$ is:
 
-  $$
-  \mathbf{F} = q \mathbf{E}
-  $$
+$$
+\mathbf{F} = q \mathbf{E}
+$$
 
 - **Dielectric Polarization**: In dielectric fluids, an external electric field aligns molecular dipoles, creating induced charges on the fluid’s surface. This polarization creates a force that can move or deform the fluid.
 
 - **Electrostatic Pressure**: Electrostatic pressure is the force per unit area exerted by an electric field on a dielectric material. This pressure can be calculated as:
 
-  $$
-  p_{\text{elec}} = \frac{\epsilon}{2} E^2
-  $$
+$$
+p_{\text{elec}} = \frac{\epsilon}{2} E^2
+$$
 
   where $\epsilon$ is the permittivity of the fluid and $E$ is the electric field strength.
 
@@ -86,19 +86,16 @@ Ion thrusters use EHD principles to generate thrust in spacecraft by acceleratin
 
 - **Key Equations**:
     - **Thrust (F)**: The thrust produced by an ion thruster is given by:
-
-      $$
-      F = \dot{m} v_e
-      $$
-
+$$
+F = \dot{m} v_e
+$$
       where $\dot{m}$ is the mass flow rate of the ions and $v_e$ is their exhaust velocity.
 
     - **Exhaust Velocity ($v_e$)**: The exhaust velocity can be calculated as:
 
-      $$
-      v_e = \sqrt{\frac{2qV}{m}}
-      $$
-
+$$
+v_e = \sqrt{\frac{2qV}{m}}
+$$
       where $q$ is the charge of an ion, $V$ is the applied voltage, and $m$ is the ion mass.
 
 - **Problem-Solving Strategy**:
