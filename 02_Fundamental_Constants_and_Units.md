@@ -74,9 +74,9 @@ The **Centimeter-Gram-Second (CGS)** unit system is still used in some areas of 
 | **Mass**                  | $1\ \mathrm{kg} = 10^3\ \mathrm{g}$             | $1\ \mathrm{g} = 10^{-3}\ \mathrm{kg}$          |
 
 ### Quick Conversion Tips
-- **Magnetic Field**: Convert tesla to gauss by multiplying by \(10^4\).
-- **Electric Field**: Convert volts per meter to statvolts per centimeter by multiplying by \(10^6\).
-- **Energy**: Joules are significantly larger than ergs, with \(1\ \mathrm{J} = 10^7\ \mathrm{erg}\).
+- **Magnetic Field**: Convert tesla to gauss by multiplying by $10^4$.
+- **Electric Field**: Convert volts per meter to statvolts per centimeter by multiplying by $10^6$.
+- **Energy**: Joules are significantly larger than ergs, with $1\ \mathrm{J} = 10^7\ \mathrm{erg}$.
 
 ---
 
@@ -87,7 +87,7 @@ In **phonon dynamics**, constants and units related to wave behavior and thermal
 - **Wave Vector ($k$)**: SI unit is 1/m (meters inverse); describes the spatial frequency of a wave.
 - **Angular Frequency ($\omega$)**: Measured in radians per second (rad/s), related to the oscillation rate of phonons.
 - **Debye Temperature ($\theta_D$)**: Unit is Kelvin (K); indicates the temperature above which phonons contribute significantly to specific heat.
-- **Planck’s Reduced Constant ($\hbar$)**: Unit is J·s; critical in quantizing phonon energy as \( E = \hbar \omega \).
+- **Planck’s Reduced Constant ($\hbar$)**: Unit is J·s; critical in quantizing phonon energy as $ E = \hbar \omega $.
 
 ---
 
