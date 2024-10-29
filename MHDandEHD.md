@@ -153,8 +153,8 @@ $$
 
 where:
 
-	•	$V_{\text{psionic}}$: Psionic potential field
-	•	$\lambda$: Nonlinear interaction constant, governing self-interactions in high-energy psionic states
+• $V_{\text{psionic}}$: Psionic potential field
+• $\lambda$: Nonlinear interaction constant, governing self-interactions in high-energy psionic states
 
 ## B. Resonant Field Equations in Psionic Engineering
 
@@ -168,8 +168,8 @@ $$
 
 where:
 
-	•	$L$: Inductive-like parameter representing the inertia of the psionic energy field
-	•	$C$: Capacitance-like parameter representing the energy storage capacity of the field medium
+• $L$: Inductive-like parameter representing the inertia of the psionic energy field
+• $C$: Capacitance-like parameter representing the energy storage capacity of the field medium
 
 ### 2. Quantum Harmonic Oscillator for Psionic Resonance
 
