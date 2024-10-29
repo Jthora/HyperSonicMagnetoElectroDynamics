@@ -1,4 +1,4 @@
-Advanced Equations for Psionic Engineering
+# Advanced Equations for Psionic Engineering
 
 This appendix extends foundational concepts in MHD and EHD to higher-level equations for psionic engineering applications, addressing advanced field dynamics, resonant interactions, and energy transfer mechanisms.
 
