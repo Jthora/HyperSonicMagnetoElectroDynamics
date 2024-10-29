@@ -86,9 +86,11 @@ Ion thrusters use EHD principles to generate thrust in spacecraft by acceleratin
 
 - **Key Equations**:
     - **Thrust (F)**: The thrust produced by an ion thruster is given by:
+
 $$
 F = \dot{m} v_e
 $$
+
       where $\dot{m}$ is the mass flow rate of the ions and $v_e$ is their exhaust velocity.
 
     - **Exhaust Velocity ($v_e$)**: The exhaust velocity can be calculated as:
@@ -96,6 +98,7 @@ $$
 $$
 v_e = \sqrt{\frac{2qV}{m}}
 $$
+
       where $q$ is the charge of an ion, $V$ is the applied voltage, and $m$ is the ion mass.
 
 - **Problem-Solving Strategy**:
