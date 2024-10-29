@@ -25,15 +25,15 @@ The dynamics of magnons and spin waves in magnetic materials are governed by sev
 
 The **LLG equation** describes the precessional motion of magnetization in a material under an external magnetic field. It is given by:
 
-\[
+$$
 \frac{d \mathbf{M}}{d t} = -\gamma \mathbf{M} \times \mathbf{H}_{\text{eff}} + \alpha \mathbf{M} \times \frac{d \mathbf{M}}{d t}
-\]
+$$
 
 where:
-- \( \mathbf{M} \): Magnetization vector
-- \( \gamma \): Gyromagnetic ratio (relates magnetic moment to angular momentum)
-- \( \mathbf{H}_{\text{eff}} \): Effective magnetic field (includes both external and internal contributions)
-- \( \alpha \): Gilbert damping constant (accounts for energy loss in the system)
+- $\mathbf{M}$: Magnetization vector
+- $\gamma$: Gyromagnetic ratio (relates magnetic moment to angular momentum)
+- $\mathbf{H}_{\text{eff}}$: Effective magnetic field (includes both external and internal contributions)
+- $\alpha$: Gilbert damping constant (accounts for energy loss in the system)
 
 The LLG equation captures the combined effects of **precession** (first term) and **damping** (second term) of the magnetization vector in response to an applied magnetic field.
 
@@ -41,15 +41,15 @@ The LLG equation captures the combined effects of **precession** (first term) an
 
 The **dispersion relation** for magnons describes the relationship between their energy and their wave vector. For a simple ferromagnet, it is given by:
 
-\[
+$$
 \hbar \omega = D k^2
-\]
+$$
 
 where:
-- \( \hbar \): Reduced Planck’s constant
-- \( \omega \): Angular frequency of the magnon
-- \( D \): Spin-wave stiffness constant (depends on material properties)
-- \( k \): Wave vector of the spin wave
+- $\hbar$: Reduced Planck’s constant
+- $\omega$: Angular frequency of the magnon
+- $D$: Spin-wave stiffness constant (depends on material properties)
+- $k$: Wave vector of the spin wave
 
 This relation shows that magnon energy is proportional to the square of the wave vector, meaning that higher-energy magnons have shorter wavelengths.
 
@@ -57,17 +57,17 @@ This relation shows that magnon energy is proportional to the square of the wave
 
 The **exchange interaction** between neighboring spins in a lattice is described by the Heisenberg model, which plays a foundational role in magnon behavior:
 
-\[
+$$
 H = -J \sum_{\langle i,j \rangle} \mathbf{S}_i \cdot \mathbf{S}_j
-\]
+$$
 
 where:
-- \( H \): Exchange interaction Hamiltonian
-- \( J \): Exchange constant (depends on the material)
-- \( \mathbf{S}_i \): Spin at site \( i \)
-- \( \mathbf{S}_j \): Spin at neighboring site \( j \)
+- $H$: Exchange interaction Hamiltonian
+- $J$: Exchange constant (depends on the material)
+- $\mathbf{S}_i$: Spin at site $i$
+- $\mathbf{S}_j$: Spin at neighboring site $j$
 
-This model describes the alignment tendency of neighboring spins: for **ferromagnetic** materials, \( J > 0 \), meaning spins align parallel; for **antiferromagnetic** materials, \( J < 0 \), meaning spins align antiparallel. Magnons arise from small deviations in spin alignment, propagating through the lattice as spin waves.
+This model describes the alignment tendency of neighboring spins: for **ferromagnetic** materials, $J > 0$, meaning spins align parallel; for **antiferromagnetic** materials, $J < 0$, meaning spins align antiparallel. Magnons arise from small deviations in spin alignment, propagating through the lattice as spin waves.
 
 ---
 
