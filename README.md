@@ -2,6 +2,9 @@
 
 # HyperSonic MagnetoElectroDynamics (HSMED)
 
+## Defensive Publication Notice
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15003323.svg)](https://doi.org/10.5281/zenodo.15003323)
+
 **HyperSonic MagnetoElectroDynamics (HSMED)** is a conceptual field exploring the interactions between **hypersonic waves** (ultra-high-frequency sound waves), **magnetic fields**, and **electric fields** in various mediums, such as plasmas, conductive fluids, and solid-state materials. This document covers theoretical principles, core equations, and potential applications of HSMED, with an emphasis on ultra-high-speed phenomena and energy transfer mechanisms.
 
 ---
